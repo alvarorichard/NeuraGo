@@ -319,4 +319,15 @@ func main() {
 		"msg":   "single layer perceptron train and test over sonar dataset",
 	}).Info("Compute single layer perceptron on sonar data set (binary classification problem)")
 
+	log.WithFields(log.Fields{
+		"level": "info",
+		"place": "main",
+		"msg":   "multi layer perceptron train and test over iris dataset",
+	}).Info("Compute backpropagation multi layer perceptron on sonar data set (binary classification problem)")
+	log.WithFields(log.Fields{
+		"level": "info",
+		"place": "main",
+		"msg":   "multi layer perceptron train and test over iris dataset",
+	}).Info("Compute training algorithm on elman network using iris data set (binary classification problem)")
+
 }
