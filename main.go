@@ -1,17 +1,12 @@
 package main
 
 import (
-	// sys import
-	"os"
-	"sync"
-
-	// third part import
-	log "github.com/sirupsen/logrus"
-
-	// this repo internal import
 	mn "github.com/made2591/go-perceptron-go/model/neural"
 	mu "github.com/made2591/go-perceptron-go/util"
 	v "github.com/made2591/go-perceptron-go/validation"
+	log "github.com/sirupsen/logrus"
+	"os"
+	"sync"
 )
 
 func init() {
