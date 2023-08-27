@@ -1,4 +1,3 @@
-// Main package provide main to test library
 package main
 
 import (
@@ -31,7 +30,7 @@ func processSLP() {
 		"msg":   "single layer perceptron train and test over sonar dataset",
 	}).Info("Compute single layer perceptron on sonar data set (binary classification problem)")
 
-	// ... Code for Single Layer Perceptron
+	// Code for Single Layer Perceptron
 }
 
 func processSection(sectionName string, process processFunc) {
@@ -59,8 +58,6 @@ func processMLP() {
 
 	// ... Code for Multilayer Perceptron
 }
-
-//############################ MAIN ############################
 
 func main() {
 	var wg sync.WaitGroup
